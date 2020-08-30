@@ -59,6 +59,11 @@ body {
   text-align: left;
   background-color: #fff; }
 
+
+.star-checked {
+  color: gold;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -2067,6 +2072,12 @@ textarea.form-control {
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
+
+.better-btn:hover {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #bd154d;
+}
 
 .btn-primary {
   color: #fff;
@@ -8519,8 +8530,9 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #ca4a75;
-      background: transparent;
-      color: #ca4a75; }
+      background: #b91049 !important;
+      color: #fff;
+      font-size: 18px; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #ca4a75;
       background: transparent;
