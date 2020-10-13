@@ -59,7 +59,50 @@ body {
   text-align: left;
   background-color: #fff; }
 
+.second-block-contents {
+  margin-top: 0; }
+  @media (max-width: 767px) {
+    .second-block-contents {
+      margin-top: 20px !important;
+    }
+  }
 
+.discount-span {
+  margin-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+  .buy-it-now {
+    padding: 1rem 0;
+  }
+  .grayned-container {
+    background-color: #f4f2f2;
+    padding: 1rem 0;
+  }
+  .centered-text-10 {
+    text-align: center !important;
+    margin-left: 10px;
+  }
+}
+
+.cake-background {
+  background-image: url("../images/bolo-principal.png") !important; }
+  @media (max-width: 767px) {
+    .cake-background {
+      background-image: url("") !important;
+    }
+  }
+  
+.promotion-background {
+  background-image: url("../images/floresta-negra.png") !important; }
+  @media (max-width: 767px) {
+    .promotion-background {
+      background-image: url("") !important;
+      background-color: #eac2d5 !important;
+      padding: 1rem 0;
+    }
+  }
+  
 .star-checked {
   color: gold;
 }
@@ -3524,7 +3567,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 0.25rem; }
   .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none; }
@@ -8071,7 +8114,8 @@ h1, h2, h3, h4, h5,
       color: #000000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        color: #fff; } }
+        color: #fff;
+        font-size: 14px; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
@@ -8148,7 +8192,7 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 1) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -8493,7 +8537,7 @@ h1, h2, h3, h4, h5,
           background: #fff; }
 
 .bg-light {
-  background: #f7f6f2 !important; }
+  background: #eac2d5 !important; }
 
 .bg-primary {
   background: #ca4a75; }
@@ -9135,6 +9179,7 @@ h1, h2, h3, h4, h5,
       -ms-border-radius: 0;
       border-radius: 0;
       font-size: 12px;
+      cursor: pointer;
       background: #ca4a75 !important; }
       .subscribe-form .form-group .submit:hover {
         cursor: pointer; }
@@ -9146,6 +9191,14 @@ h1, h2, h3, h4, h5,
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     color: rgba(255, 255, 255, 0.8); }
+    @media (max-width: 767px) {
+      .subscribe-form .form-group input {
+        width: 260px !important;
+      }
+      .subscribe-form .form-group .submit {
+        width: 85px !important;
+      }
+    }
 
 .aside-stretch {
   background: #9bc166; }
@@ -9198,6 +9251,11 @@ textarea.form-control {
 .ftco-section {
   padding: 6em 0;
   position: relative; }
+  @media (max-width: 767px) {
+    .ftco-section {
+      padding: 3em 0;
+    }
+  }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9229,6 +9287,11 @@ textarea.form-control {
     border: 2px solid #fff !important; }
     .ftco-footer .ftco-footer-widget .btn-primary:hover {
       border: 2px solid #fff !important; }
+      @media(max-width: 767px) {
+        .ftco-footer {
+          text-align: center !important;
+        }
+      }
 
 .ftco-footer-social li {
   list-style: none;
@@ -9284,6 +9347,14 @@ textarea.form-control {
 
 .heading-section {
   position: relative; }
+  @media (max-width: 767px) {
+    .heading-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
   .heading-section .subheading {
     font-size: 18px;
     display: block;
@@ -9645,6 +9716,14 @@ textarea.form-control {
     width: 40px;
     font-size: 18px;
     padding-top: 2px; }
+    @media(max-width: 767px) {
+      .block-23 ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
 
 .block-17 {
   background: #fff;
