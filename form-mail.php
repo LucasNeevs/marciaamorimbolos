@@ -31,11 +31,11 @@
         $mail-> SMTPAuth = (true);
         $mail-> Port = 587;
         $mail-> Host = 'smtp-mail.outlook.com';
-        $mail-> Username = "marcia@outlook.com";
-        $mail-> Password = "MINHA-SENHA"; //recuperar-senha da conta de email
-        $mail-> SetFrom('marcia@outlook.com', 'Contate-nos'); //Enviado por...
-        $mail-> AddAddress ("marcia@outlook.com"); //Enviar para...
-        $mail-> Subject = ('Formulário de Contato [Email Marketing]');
+        $mail-> Username = "marciaamorimbolos@outlook.com";
+        $mail-> Password = "#OK3twpt"; //recuperar-senha da conta de email
+        $mail-> SetFrom('marciaamorimbolos@outlook.com', 'Contate-nos'); //Enviado por...
+        $mail-> AddAddress ("marciaamorimbolos@outlook.com"); //Enviar para...
+        $mail-> Subject = ('Formulário de Contato [Email-marketing]');
         $mail-> MsgHTML ($corpo2);
 
         if($mail->send())
