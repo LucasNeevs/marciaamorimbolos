@@ -94,11 +94,25 @@ body {
   }
   
 .promotion-background {
-  background-image: url("../images/floresta-negra.png") !important; }
+  background-image: url("../images/floresta-negra.png") !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
   @media (max-width: 767px) {
     .promotion-background {
       background-image: url("") !important;
       background-color: #eac2d5 !important;
+      padding: 1rem 0;
+    }
+  }
+
+.promotion-background-prod {
+  background-image: url("../images/floresta-negra.png") !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
+  @media (max-width: 767px) {
+    .promotion-background-prod {
+      background-image: url("") !important;
+      background-color: #f4f2f2 !important;
       padding: 1rem 0;
     }
   }
@@ -5471,6 +5485,13 @@ button.bg-dark:focus {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+.d-flex-c {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center; }
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -8440,8 +8461,8 @@ h1, h2, h3, h4, h5,
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
           color: #000000;
-          font-weight: 300;
-          font-size: 12px;
+          font-weight: 600;
+          font-size: 14px;
           letter-spacing: 4px;
           text-transform: uppercase;
           display: inline-block;
