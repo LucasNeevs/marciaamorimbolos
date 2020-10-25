@@ -8461,8 +8461,8 @@ h1, h2, h3, h4, h5,
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
           color: #000000;
-          font-weight: 300;
-          font-size: 12px;
+          font-weight: 600;
+          font-size: 14px;
           letter-spacing: 4px;
           text-transform: uppercase;
           display: inline-block;
