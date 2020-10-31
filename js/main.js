@@ -327,7 +327,7 @@
 			A variável now contém a data atual, o dia de hoje, independente de
 			qual dia seja hoje, ou seja, sempre o dia atual.
 		*/
-		var real_date = new Date("31 December 2020 23:59:99 GMT-03:00");		
+		var real_date = new Date("12 December 2020 23:59:99 GMT-03:00");		
 		real_date = (Date.parse(real_date) / 1000);
 
 		var now = new Date();
