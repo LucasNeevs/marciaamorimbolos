@@ -8296,7 +8296,8 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .6;
     width: 50%;
-    background: #ca4a75; }
+    background: #ca4a75;
+  }
   .hero-wrap .slider-text {
     color: #fff;
     position: relative; }
@@ -9212,12 +9213,14 @@ h1, h2, h3, h4, h5,
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     color: rgba(255, 255, 255, 0.8); }
-    @media (max-width: 767px) {
+    @media (min-width: 501px) and (max-width: 767px) {
+      .subscribe-form .form-group input {
+        width: 300px !important;
+      }
+    }
+    @media (max-width: 500px) {
       .subscribe-form .form-group input {
         width: 260px !important;
-      }
-      .subscribe-form .form-group .submit {
-        width: 85px !important;
       }
     }
 
